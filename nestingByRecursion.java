@@ -9,7 +9,7 @@ class nesting2 {
         return true;
     }
 
-      else if (str.length() != 0 && str.length() % 2 == 0) {
+      else {
         if (str.charAt(0) == '(' && str.charAt(str.length() - 1) == ')'){
             String newStr = "";
             for (int i = 1; i < str.length() - 1; i++) {
